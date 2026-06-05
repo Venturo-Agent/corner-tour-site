@@ -2,7 +2,7 @@
 <html lang="zh-Hant">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
 <title>惠逸姊家族旅遊・京都五日｜角落旅行社</title>
 <meta name="description" content="2027 立春・京都，宇治平等院、天橋立、伊根舟屋、嵐山、清水寺——家族同行的五日">
 
@@ -27,8 +27,9 @@
     --rule-strong: rgba(45,31,24,0.4);
     --muted: rgba(45,31,24,0.55);
   }
-  html { scroll-behavior: smooth; scroll-padding-top: 70px; }
-  html, body { background: #fff; }
+  html { scroll-behavior: smooth; scroll-padding-top: 70px; -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+  html, body { background: #fff; overflow-x: clip; }
+  body { touch-action: manipulation; }
   body {
     font-family: 'Noto Serif TC', serif;
     color: var(--ink);
